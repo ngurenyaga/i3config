@@ -206,6 +206,7 @@ bindsym Alt+t exec thunar
 
 # Assign classes, discovered using xprop
 assign [class="Sublime_text"] 1:Sublime
+assign [class="Eog"] 2.Eog
 assign [class="terminal"] 3:Code
 assign [class="google-chrome"] 4:Chrome
 assign [class="Thunar"] 5:Thunar
