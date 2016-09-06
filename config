@@ -193,9 +193,9 @@ focus_follows_mouse no
 bindsym $mod+z exec i3lock -t -f -e -pwin -i ~/.i3/lockscreen.png
 
 #volume
-bindcode 73 exec --no-startup-id ~/sys/volume.sh up
-bindcode 72 exec --no-startup-id ~/sys/volume.sh down
-bindsym $mod+m exec --no-startup-id ~/sys/volume.sh mute
+bindcode 73 exec --no-startup-id ./volume.sh up
+bindcode 72 exec --no-startup-id ./volume.sh down
+bindsym $mod+m exec --no-startup-id ./volume.sh mute
 
 #brightness
 bindcode 76 exec --no-startup-id ~/sys/brightness.sh up
