@@ -218,13 +218,14 @@ assign [class="Firefox"] 10:Firefox
 assign [class="Evince"] 11:Evince
 assign [class="File-roller"] 12:File-roller
 assign [class="libreoffice-calc"] 13:LibreOffice
+assign [class="XTerm"] 14:Xterm
 
 # Startup applications
 exec --no-startup-id nm-applet
 exec --no-startup-id pasystray
 exec --no-startup-id gnome-keyring
 exec --no-startup-id dropbox start
-
+exec --no-startup-id xterm
 exec --no-startup-id gnome-terminal
 exec --no-startup-id google-chrome
 exec --no-startup-id thunar
