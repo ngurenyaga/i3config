@@ -197,6 +197,9 @@ assign [class="libreoffice-calc"] 13:Calc
 assign [class="XTerm"] 14:Xterm
 assign [class="konsole"] 15:Konsole
 assign [class="Atom"] 16:Atom
+assign [class="Spotify"] 17:Spotify
+assign [class="spotify"] 17:Spotify
+assign [class="jetbrains-pycharm-ce"] 18:Pycharm
 
 # Startup applications
 exec --no-startup-id gnome-keyring
