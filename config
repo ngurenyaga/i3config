@@ -200,6 +200,8 @@ assign [class="Atom"] 16:Atom
 assign [class="Spotify"] 17:Spotify
 assign [class="spotify"] 17:Spotify
 assign [class="jetbrains-pycharm-ce"] 18:Pycharm
+assign [class="Okular"] 19:Okular
+assign [class="Thunderbird"] 20:Thunderbird
 
 # Startup applications
 exec --no-startup-id gnome-keyring
@@ -212,3 +214,5 @@ exec --no-startup-id slack
 exec --no-startup-id terminator
 exec --no-startup-id firefox
 exec --no-startup-id subl
+exec --no-startup-id thunderbird
+
